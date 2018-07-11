@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.alert {
+	border-radius: unset;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.24), 0 4px 16px 0 rgba(0,0,0,0.16);
+	color: #fff;
+}
+
+.alert .alert-link {
+	color: #fff;
+}
+
+.alert-primary-dark {
+	background-color: #004085;
+	border-color: #004085;
+    color: #CCe5ff;
+}
+
+.alert-cyan {
+	box-shadow: none;
+	background-color: #0097a7;
+	border-color: #0097a7;
+}
+
+.alert-deep-orange {
+	box-shadow: none;
+	background-color: #ff5722;
+	border-color: #ff5722;
+}
+
+.alert-light-green {
+	border-radius: 8px;
+	background-color: #43a047;
+	border-color: #43a047;
+}
+
+.alert-deep-purple {
+	border-radius: 16px;
+	background-color: #7e57c2;
+	border-color: #7e57c2;
+}
+
+.alert-pink {
+	border-radius: 36px;
+	background-color: #e91e63;
+	border-color: #e91e63;
+}
+
+.alert-blue {
+	background-color: #2196f3;
+	border-color: #2196f3;
+}
+
+.alert-orange {
+	background-color: #ef6c00;
+	border-color: #ef6c00;
+}
+
+
+
+.alert:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.48), 0 8px 32px 0 rgba(0,0,0,0.32);
+}
+
+.fade-2s {
+	transition: opacity 2s linear;
+}
+
+.alert .close {
+	color: inherit;
+}
